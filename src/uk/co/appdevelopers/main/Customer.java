@@ -1,4 +1,4 @@
-package uk.co.slc.main;
+package uk.co.appdevelopers.main;
 
 /**
  * @author aamirm

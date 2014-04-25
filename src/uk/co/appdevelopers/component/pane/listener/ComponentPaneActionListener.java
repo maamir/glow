@@ -1,4 +1,4 @@
-package uk.co.slc.component.pane.listener;
+package uk.co.appdevelopers.component.pane.listener;
 
 /**
  * @author aamirm

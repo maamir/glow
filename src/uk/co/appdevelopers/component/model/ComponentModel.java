@@ -1,4 +1,4 @@
-package uk.co.slc.component.model;
+package uk.co.appdevelopers.component.model;
 
 import java.io.Serializable;
 

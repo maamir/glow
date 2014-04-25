@@ -1,7 +1,7 @@
-package uk.co.slc.main;
+package uk.co.appdevelopers.main;
 
-import uk.co.slc.component.pane.IComponentPane;
-import uk.co.slc.component.pane.QuestionFlow;
+import uk.co.appdevelopers.component.pane.IComponentPane;
+import uk.co.appdevelopers.component.pane.QuestionFlow;
 
 /**
  * @author aamirm

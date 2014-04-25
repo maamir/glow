@@ -1,42 +1,46 @@
-package uk.co.slc.graph.impl;
+package uk.co.appdevelopers.graph.impl;
 
 /**
  * @author aamirm
  *
  */
-public class Node {
+public class Edge {
 
 	private String id;
-	private String name;
+	private String label;
 	
-	public Node(String id, String name) {
+	public Edge(String id, String label) {
+		super();
 		this.id = id;
-		this.name = name;
+		this.label = label;
 	}
-	
+
 	/**
 	 * @return the id
 	 */
 	public String getId() {
 		return id;
 	}
+
 	/**
 	 * @param id the id to set
 	 */
 	public void setId(String id) {
 		this.id = id;
 	}
+
 	/**
-	 * @return the name
+	 * @return the label
 	 */
-	public String getName() {
-		return name;
+	public String getLabel() {
+		return label;
 	}
+
 	/**
-	 * @param name the name to set
+	 * @param label the label to set
 	 */
-	public void setName(String name) {
-		this.name = name;
+	public void setLabel(String label) {
+		this.label = label;
 	}
 
 	/* (non-Javadoc)
@@ -47,7 +51,7 @@ public class Node {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
-		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + ((label == null) ? 0 : label.hashCode());
 		return result;
 	}
 
@@ -62,16 +66,16 @@ public class Node {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Node other = (Node) obj;
+		Edge other = (Edge) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
 		} else if (!id.equals(other.id))
 			return false;
-		if (name == null) {
-			if (other.name != null)
+		if (label == null) {
+			if (other.label != null)
 				return false;
-		} else if (!name.equals(other.name))
+		} else if (!label.equals(other.label))
 			return false;
 		return true;
 	}

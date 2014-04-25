@@ -1,12 +1,12 @@
-package uk.co.slc.component.pane;
+package uk.co.appdevelopers.component.pane;
 
 import java.util.LinkedList;
 
 import org.apache.commons.beanutils.BeanUtils;
 
-import uk.co.slc.component.model.ComponentModel;
-import uk.co.slc.component.model.ComponentModel.State;
-import uk.co.slc.component.pane.listener.ComponentPaneActionListener;
+import uk.co.appdevelopers.component.model.ComponentModel;
+import uk.co.appdevelopers.component.model.ComponentModel.State;
+import uk.co.appdevelopers.component.pane.listener.ComponentPaneActionListener;
 
 
 public class ComponentPane<T> implements IComponentPane, ComponentPaneActionListener {

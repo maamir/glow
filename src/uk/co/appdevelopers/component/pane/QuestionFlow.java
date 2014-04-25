@@ -1,4 +1,4 @@
-package uk.co.slc.component.pane;
+package uk.co.appdevelopers.component.pane;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

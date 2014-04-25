@@ -1,4 +1,4 @@
-package uk.co.slc.graph.impl;
+package uk.co.appdevelopers.graph.impl;
 
 import java.io.Serializable;
 

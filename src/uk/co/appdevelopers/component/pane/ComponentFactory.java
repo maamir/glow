@@ -1,9 +1,9 @@
-package uk.co.slc.component.pane;
+package uk.co.appdevelopers.component.pane;
 
 import java.util.LinkedList;
 
-import uk.co.slc.component.model.ComponentModel;
-import uk.co.slc.component.model.ComponentModel.State;
+import uk.co.appdevelopers.component.model.ComponentModel;
+import uk.co.appdevelopers.component.model.ComponentModel.State;
 
 /**
  * File: ComponentFactory.java

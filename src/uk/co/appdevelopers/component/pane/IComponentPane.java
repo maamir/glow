@@ -1,6 +1,6 @@
-package uk.co.slc.component.pane;
+package uk.co.appdevelopers.component.pane;
 
-import uk.co.slc.component.pane.listener.ComponentPaneActionListener;
+import uk.co.appdevelopers.component.pane.listener.ComponentPaneActionListener;
 
 /**
  * @author aamirm

@@ -1,4 +1,4 @@
-package uk.co.slc.component.container;
+package uk.co.appdevelopers.component.container;
 
 import java.io.Serializable;
 import java.util.Hashtable;
