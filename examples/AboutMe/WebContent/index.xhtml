@@ -1,0 +1,78 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:aboutMe="htp://slc">
+	
+	<html>
+		<h:form>
+			<h:panelGroup rendered="#{profileBean.q1.render}">
+				<div>
+					Question 1
+					<h:commandButton value="Answer it" action="#{profileBean.q1.actionListener.submitValue('aamir')}">
+						<f:ajax execute="@form" render="@form"/>
+					</h:commandButton>
+				</div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{profileBean.q1.state.equals('submit')}">
+				<div>
+					<table>
+						<tr>
+							<td>#{profileBean.q1.submittedValue}</td>
+							<td>
+								<h:commandButton value="Edit it" action="#{profileBean.q1.actionListener.edit}">
+									<f:ajax execute="@form" render="@form"/>
+								</h:commandButton>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{profileBean.q2.render}">
+				<div>
+					Question 2
+					<h:commandButton value="Answer it" action="#{profileBean.q2.actionListener.submitValue('rana')}">
+						<f:ajax execute="@form" render="@form"/>
+					</h:commandButton>
+				</div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{profileBean.q2.state.equals('submit')}">
+				<div>
+					<table>
+						<tr>
+							<td>#{profileBean.q2.submittedValue}</td>
+							<td>
+								<h:commandButton value="Edit it" action="#{profileBean.q2.actionListener.edit}">
+									<f:ajax execute="@form" render="@form"/>
+								</h:commandButton>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{profileBean.q3.render}">
+				<div>
+					Question 3
+					<h:commandButton value="Answer it" action="#{profileBean.q3.actionListener.submitValue('28')}">
+						<f:ajax execute="@form" render="@form"/>
+					</h:commandButton>
+				</div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{profileBean.q3.state.equals('submit')}">
+				<div>
+					<table>
+						<tr>
+							<td>#{profileBean.q3.submittedValue}</td>
+							<td>
+								<h:commandButton value="Edit it" action="#{profileBean.q3.actionListener.edit}">
+									<f:ajax execute="@form" render="@form"/>
+								</h:commandButton>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</h:panelGroup>
+		</h:form>
+	</html>
+
+</ui:composition>
